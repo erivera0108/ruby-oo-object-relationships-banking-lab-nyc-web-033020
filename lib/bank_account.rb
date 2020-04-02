@@ -6,6 +6,7 @@ class BankAccount
         @balance = balance
         @status = status
     end
+    #swap places
 
 
 end
