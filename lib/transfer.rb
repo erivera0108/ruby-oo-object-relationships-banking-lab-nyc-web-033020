@@ -18,7 +18,7 @@ class Transfer
     #to be able to check if the sender is valid
     #push/shovel amount from sender to receiver hash
     #condition that it could only happen once
-    if self.sender.valid? && self.sender[:balance]
+    if self.sender.valid? && self.sender[:balance] > 0
       self.receiver[:balance] += self.amount
     else
       false
