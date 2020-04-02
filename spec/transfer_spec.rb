@@ -31,6 +31,7 @@ describe 'Transfer' do
 
   describe '#valid?' do
     it "can check that both accounts are valid" do
+      # binding.pry
       expect(avi.valid?).to eq (true)
       expect(amanda.valid?).to eq(true)
       expect(transfer.valid?).to eq(true)

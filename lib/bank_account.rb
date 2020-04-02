@@ -29,4 +29,11 @@ class BankAccount
         self.status = "closed"
     end
 
+    # def sender
+    #     Transfer.sender
+    # end
+
+    # def receiver 
+    #     Transfer.receiver
+    # end
 end
